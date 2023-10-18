@@ -1,0 +1,347 @@
+body{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    }
+    .form-login {
+        width: 500px;
+        height: 400px;
+        margin: auto;
+        margin-top: 180px;
+        box-shadow: 7px 13px 37px #000;
+        padding: 20px 30px;
+        border-top: 4px solid #017bab;
+        color: white;
+        position: relative;
+        top: -60px;
+        z-index: 2;
+        border-radius: 20px;
+        border: #000 solid;
+        background: rgba(0, 0, 0, 0.637);;
+    }
+    
+    .form-login h2 {
+        margin: 0;
+        text-align: center;
+        height: 40px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid;
+        font-size: 30px;
+        color: white;
+        text-shadow: 0 0 50px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
+        font-weight: 400;
+    }
+    
+    .controls {
+        width: 100%;
+        border: 1px solid #017bab;
+        margin-bottom: 15px;
+        padding: 11px 10px;
+        background: #252323;
+        font-size: 20px;
+        font-weight: arial;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .buttons {
+        width: 50%;
+        height: 40px;
+        background: #017bab;
+        border: none;
+        color: white;
+        margin-bottom: 16px;
+        border-radius: 10px;
+        margin-left: 120px;
+        font-size: 20px;
+    }
+
+    video{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+h1{
+    border: rgb(31, 34, 34) solid;
+    background-color: #000;
+    border-radius: 10px;
+    width: 800px;
+    position: relative;
+    z-index: 2;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    top: 20px;
+    font-weight: 500;
+    color: white;
+    text-shadow: 0 0 50px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+    }
+.a{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    font-size: 24px;
+}
+
+.flex{
+    display: flex;
+    margin-left: -50px;
+    border: none;
+    width: 20%;
+    min-width: 200px;
+    border-radius: 30px;
+    
+}
+
+#logo{
+    margin-top: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 170px;
+   background-image: url(./iniciofondo/logo-uba.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center center;
+    position: relative;
+    background-color: #ffd6d66b;  
+}
+
+img{
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height: 3500px;
+    position: absolute;
+  
+   
+}
+
+center{
+    position: relative;
+    top: -100;
+    font-weight: 500;
+    font-size: 26px;
+    font-family: 'Lobster', cursive;
+    width: 100%;
+  
+}
+
+.dire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 180px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+h3{
+    background-color: #ffd6d66b;
+    border-radius: 20px;
+    width: 100%;
+    height: 150px;
+    padding-top: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 2000;
+    color: rgba(0, 0, 0, 0.849);
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 40px;
+    border-bottom: #000;
+    border: solid rgb(80, 50, 56);
+    background-color: #ffd6d6c0 ;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 3px;
+    }
+
+    .menu a{
+    top:-100px ;
+    color: #000000;
+    background-color:  #ffd6d6c0;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 28px;
+    
+    }
+
+    .to{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content:space-around;
+   
+    }
+
+    .tabla{ 
+        margin-left: -50px;
+        text-align: center;
+        padding: 15px;
+        border-radius: 30px;
+        width: 100%;
+        border: none;
+        background: rgba(0, 0, 0, 0.842);; 
+        position: relative;
+    }
+
+.ti>td{
+    color: rgba(240, 248, 255, 0.719);
+    background: #270116ad;
+}
+
+td{
+    border-radius: 10px;
+}
+
+.tablass{
+    display: flex;   
+    float: right;  
+    padding-top: 60px;
+    width: 60%;
+    height: 400px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 1000;
+    font-size: 22px;
+    margin-top: -120px;
+    border-radius: 10px;
+}
+
+    .caj{
+        width: 30%;
+        box-shadow: 7px 13px 37px #000;
+        padding: 10px 10px;
+        padding-top: -30px;
+        border-top: 4px solid #017bab;
+        color: white;
+        top: -60px;
+        z-index: 2;
+        border-radius: 20px;
+        border: none;
+        background: rgba(0, 0, 0, 0.637);; 
+        margin-left: 20px;
+        margin-top: 40;
+        position: relative;
+    }
+
+    .caja{
+        width: 100%;
+        height:300px;
+        border: none;
+        margin-bottom: 15px;
+        padding: 11px 10px;
+        background: #252323;
+        font-size: 20px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .inpu{
+    border-radius: 10px;
+    width: 100%;
+    height: 60%;
+    outline: none;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0.719);
+    }
+
+    .displa{
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+    padding-top: 130px;
+    }
+
+#hola{
+    font-size: 30px;
+}
+
+
+
+.enla{
+    
+    color: #000000;
+border-radius: 4px;
+background-color:  rgba(240, 248, 255, 0.295);
+}
+.enlase{
+    color: #000000;
+    border-radius: 10px;
+    background-color: #a013136e;
+}
+
+#ci{
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    object-fit: cover;
+}
+.dita{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+}
+.ca{
+    width: 500px;
+    height: 600px;
+    margin-top: 10%;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: white;
+    position: relative;
+    top: -60px;
+    z-index: 2;
+    border-radius: 20px;
+    border: #000 solid;
+    background: rgba(0, 0, 0, 0.637);
+}
+
+.in{
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 20px;
+    font-weight: arial;
+    border-radius: 10px;
+    color: white;
+}
+.ca h4 {
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 50px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+    font-weight: 400;
+}
